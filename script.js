@@ -2,20 +2,20 @@ gsap.registerPlugin(ScrollTrigger)
 
 gsap.to('.first', {
     scrollTrigger: {
-        trigger: '.container_1',
+        trigger: '.page1_container',
         start: 'top top',
         scrub: 2,
     },
-    xPercent: 130,
+    x: 2000,
     duration: 2,
 })
 
 gsap.to('.second', {
     scrollTrigger: {
-        trigger: '.container_1',
+        trigger: '.page1_container',
         start: 'top top',
         scrub: 2,
     },
-    xPercent: -250,
+    x: -2000,
     duration: 2,
 })

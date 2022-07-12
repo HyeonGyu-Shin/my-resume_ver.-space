@@ -8,8 +8,7 @@
 
 html {
     // font-family: $font-main;
-    // font-size: $font-size-16;
-    // 나중에 본문 font-size 정해준다.
+    font-size: 62.5%;
 }
 
 body {
@@ -48,4 +47,8 @@ ul,
 ol {
     padding-left: 0;
     list-style: none;
+}
+
+.pages_container {
+    height: 100%;
 }
