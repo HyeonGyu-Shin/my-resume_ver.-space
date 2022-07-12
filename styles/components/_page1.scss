@@ -5,3 +5,9 @@
     width: 100%;
     height: 100vh;
 }
+
+.moon_container {
+    @include flexbox;
+    width: 100%;
+    height: 100vh;
+}
